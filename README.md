@@ -15,8 +15,8 @@ To determine the prime factors we can use a simple approach step by step like be
 2. if $N$ is not a prime number, then choose a random integer $'a'$ between $1<a<N$
 
 * Calculate $gcd(a,N)$
-     - if $gcd(a,N) \neq 1$, then return the $gcd(a,N)$ as a prime facotr
-     - if $gcd(a,N) = 1$, proceed to step 3.
+     * if $gcd(a,N) \neq 1$, then return the $gcd(a,N)$ as a prime facotr
+     * if $gcd(a,N) = 1$, proceed to step 3.
  3. find the period ($r$) of the following function 
  
 $$f_{a,N}(x) = a^x \text{mod} N$$
