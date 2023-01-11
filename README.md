@@ -62,7 +62,9 @@ For second example we will have:
    $$p_1 = \text{gcd}(3^{12/2}+1,35)=\text{gcd}(730,35)=5 \qquad   p_2 = \text{gcd}(3^{12/2}-1,35)=\text{gcd}(728,35)=7$$
  
 ## What is the story by using Quantum Computation?
-The story is the same as classic, but here we just want to calculate the period of function with using quantum features. To do this P. Shor has applied quantum phase estimation like below.
+The story is the same as classic, but here we just want to calculate the period of function with using quantum features. To do this P. Shor has applied quantum phase estimation like below. Let me consider the second example $(N=35,a=3)$. Suppose the following unitary operator:
+
+$$U|y\rangle = |a\times y \text{mode} N$$
 
 
 
