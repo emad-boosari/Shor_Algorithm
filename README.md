@@ -30,5 +30,18 @@ which here $a = 7$ and $N=15$ for $x = 0,1,...,N$. After doing this for a while 
    * $p_2$ = $\text{gcd}(7^{4/2}-1,15)=\text{gcd}(48,15)=3$
  
  
-
+As a second example let me consider $N=21$ and $a=5$.
+  * $f_{5,21}(0) = 5^0 \text{mod} 21 = 1$
+  * $f_{5,21}(1) = 5^1 \text{mod} 21 = 5$
+  * $f_{5,21}(2) = 5^2 \text{mod} 21 = 4$
+  * $f_{5,21}(3) = 5^3 \text{mod} 21 = 20$
+  * $f_{5,21}(4) = 5^4 \text{mod} 21 = 16$
+  * $f_{5,21}(5) = 5^5 \text{mod} 21 = 17$
+  * $f_{5,21}(6) = 5^6 \text{mod} 21 = 1$
+  * $f_{5,21}(7) = 5^7 \text{mod} 21 = 5$
+ 
+ So the peroiod $r$ is 6 and the prime factors are
+   * $p_1$ = $\text{gcd}(5^{6/2}+1,21)=\text{gcd}(126,21)=5$
+   * $p_2$ = $\text{gcd}(5^{6/2}-1,21)=\text{gcd}(124,21)=3$
+ 
 
