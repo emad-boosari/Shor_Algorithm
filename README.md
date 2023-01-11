@@ -88,8 +88,10 @@ for our case it can be written as
 $$|u_0\rangle = \frac{1}{\sqrt{12}} \bigg(|1\rangle+|3\rangle+|9\rangle+|27\rangle+\ldots+|4\rangle+|12\rangle\bigg) $$
 
 $$ |u_1\rangle = U|u_0\rangle = \frac{1}{\sqrt{12}} \bigg(U|1\rangle+U|3\rangle+U|9\rangle+U|27\rangle+\ldots+U|4\rangle+U|12\rangle\bigg) =
- \frac{1}{\sqrt{12}} \bigg(U|3\rangle+U|9\rangle+U|27\rangle+U|11\rangle+\ldots+U|12\rangle+U|1\rangle\bigg) $$
+ \frac{1}{\sqrt{12}} \bigg(U|3\rangle+U|9\rangle+U|27\rangle+U|11\rangle+\ldots+U|12\rangle+U|1\rangle\bigg) = |u_0\rangle $$
 
+the eigenvalue is 1. But an intersting case could be one in which the phase is different for each of these computational basis.
+$$|u_1\rangle = \frac{1}{\sqrt{r}} \sum_{k=0}^{r-1} e^{\frac{-2\pi ik}{r}}|a^k \text{mod} N\rangle.$$
 
 
 
