@@ -13,9 +13,10 @@ To determine the prime factors we can use a simple approach step by step like be
    * Calculate $gcd(a,N)$         
      * if $gcd(a,N) \neq 1$, then return the $gcd(a,N)$ as a prime facotr
      * if $gcd(a,N) = 1$, proceed to __step 3__.
- 3. find the period $r$ in such a way that for the following function $f_{a,N}(r+1)= f_{a,N}(1) $ 
- 
-$$f_{a,N}(x) = a^x \text{mod} N$$
+ 3. find the period $r$ in such a way that for the function $f_{a,N}(x) = a^x \text{mod} N$ 
+$$f_{a,N}(r+1)= f_{a,N}(1) $$
+or in general
+$$f_{a,N}(r+s)= f_{a,N}(s) \qquad s>1 $$
 
  5. if period $r$ is odd or if $a^r \equiv -1 \text{mod} N$, then return to __step 2__ and choose another $a$.
  *  Attention: $17 \equiv 2\text{mod} 15$
