@@ -59,7 +59,7 @@ For second example we will have:
   * $f_{3,35}(15) = 3^{15} \text{mod} 35 = 27$
  
  So the peroiod $r$ is 12 and the prime factors are
-   $$p_1 = \text{gcd}(3^{12/2}+1,35)=\text{gcd}(730,21)=5 \qquad   p_2 = \text{gcd}(3^{12/2}-1,21)=\text{gcd}(728,35)=7$$
+   $$p_1 = \text{gcd}(3^{12/2}+1,35)=\text{gcd}(730,35)=5 \qquad   p_2 = \text{gcd}(3^{12/2}-1,35)=\text{gcd}(728,35)=7$$
  
 ## What is the story by using Quantum Computation?
 The story is the same as classic, but here we just want to calculate the period of function with using quantum features. To do this P. Shor has applied quantum phase estimation like below.
