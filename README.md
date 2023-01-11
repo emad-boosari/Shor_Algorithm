@@ -38,16 +38,16 @@ As a first example, let me consider $N=15$ and $a=7$ which is a famous example i
  In this case we can see the period is *four* $(r=4)$. Now we can use this period (r=4) in order to find the prime factors of the number 15 in the following way:
    * $$p_1 = \text{gcd}(7^{4/2}+1,15)=\text{gcd}(50,15)=5 \qquad  p_2 = \text{gcd}(7^{4/2}-1,15)=\text{gcd}(48,15)=3$$
  
-### First Examples $N=21$ and $a=5$
+### First Examples $N=28$ and $a=5$
 For second example we will have:
-  * $f_{5,21}(0) = 5^0 \text{mod} 21 = 1$
-  * $f_{5,21}(1) = 5^1 \text{mod} 21 = 5$
-  * $f_{5,21}(2) = 5^2 \text{mod} 21 = 4$
-  * $f_{5,21}(3) = 5^3 \text{mod} 21 = 20$
-  * $f_{5,21}(4) = 5^4 \text{mod} 21 = 16$
-  * $f_{5,21}(5) = 5^5 \text{mod} 21 = 17$
-  * $f_{5,21}(6) = 5^6 \text{mod} 21 = 1$
-  * $f_{5,21}(7) = 5^7 \text{mod} 21 = 5$
+  * $f_{5,28}(0) = 5^0 \text{mod} 28 = 1$
+  * $f_{5,28}(1) = 5^1 \text{mod} 28 = 5$
+  * $f_{5,28}(2) = 5^2 \text{mod} 28 = 4$
+  * $f_{5,28}(3) = 5^3 \text{mod} 28 = 20$
+  * $f_{5,28}(4) = 5^4 \text{mod} 28 = 16$
+  * $f_{5,28}(5) = 5^5 \text{mod} 28 = 17$
+  * $f_{5,28}(6) = 5^6 \text{mod} 28 = 1$
+  * $f_{5,28}(7) = 5^7 \text{mod} 28 = 5$
  
  So the peroiod $r$ is 6 and the prime factors are
    * $p_1$ = $\text{gcd}(5^{6/2}+1,21)=\text{gcd}(126,21)=5$
