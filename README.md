@@ -7,7 +7,24 @@ Consider a postive integer Number like $N$. We are intrested in the factor $p$ o
 
 ### Classical Approach
 
-To determineLet me consider a simple example. We have a number like 15 and we would like to find an its prime facotrs, it means 3 and 5. We choose randomly a number like 7 and try to find _Mod_ of a function like below
+To determine the prime factors we can use a simple approach step by step like below
+
+
+
+1. if $N$ is a prime number declare that it is and exit.
+2. if $N$ is not a prime number, then choose a random integer $'a'$ between $1<a<N$
+  * Calculate $gcd(a,N)$
+     - if $gcd(a,N) \neq 1$, then return the $gcd(a,N)$ as a prime facotr
+     - if $gcd(a,N) = 1$, proceed to step 3.
+ 3. find the period ($r$) of the following function 
+ 
+$$f_{a,N}(x) = a^x \text{mod} N$$
+
+ 5. if period $r$ is odd or if $a^r $
+ 6. 5
+ 
+
+Let me consider a simple example. We have a number like 15 and we would like to find an its prime facotrs, it means 3 and 5. We choose randomly a number like 7 and try to find _Mod_ of a function like below
 
 $$f_{a,N}(x) = a^x \text{mod} N$$
 
