@@ -23,7 +23,7 @@ $$f_{a,N}(r+s)= f_{a,N}(s) \quad \text{for} \qquad s>1 $$
  7. prime factors are 
    $$p_1 = \text{gcd}(a^{r/2}+1,N), \qquad p_2 = \text{gcd}(a^{r/2}-1,N)$$
 
-### Examples:
+### First Examples $N=15$ and $a=7$
 As a first example, let me consider $N=15$ and $a=7$ which is a famous example in quantum computation literature. As a naive person, we can find the period just by following the numbers below:
 
   * $f_{7,15}(0) = 7^0 \text{mod} 15 = 1$
@@ -38,8 +38,8 @@ As a first example, let me consider $N=15$ and $a=7$ which is a famous example i
  In this case we can see the period is *four* $(r=4)$. Now we can use this period (r=4) in order to find the prime factors of the number 15 in the following way:
    * $$p_1 = \text{gcd}(7^{4/2}+1,15)=\text{gcd}(50,15)=5 \qquad  p_2 = \text{gcd}(7^{4/2}-1,15)=\text{gcd}(48,15)=3$$
  
- 
-As a second example let me consider $N=21$ and $a=5$.
+### First Examples $N=21$ and $a=5$
+For second example we will have:
   * $f_{5,21}(0) = 5^0 \text{mod} 21 = 1$
   * $f_{5,21}(1) = 5^1 \text{mod} 21 = 5$
   * $f_{5,21}(2) = 5^2 \text{mod} 21 = 4$
