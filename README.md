@@ -80,7 +80,9 @@ $$U|y\rangle = |a\times y \text{Mod} N\rangle$$
 12. $U^12|1\rangle = U|12\rangle  = |1\rangle$
 13. $U^13|1\rangle = U|1\rangle  = |3\rangle$
 
-
+***
+So a superposition of these states in this cycle $(|u_0\rangle)$ would be an eigenstate of $U$:
+$$|u_0\rangle = \frac{1}{r} \sum_{k=0}^{r-1} |a^k \text{mod} N$$
 
 
 
