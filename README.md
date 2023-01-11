@@ -18,7 +18,13 @@ which here $a = 7$ and $N=15$ for $x = 0,1,...,N$. After doing this for a while 
   * $f_{7,15}(6) = 7^6 \text{mod} 15 = 4$
   * $f_{7,15}(7) = 7^7 \text{mod} 15 = 13$ 
 
- In this case we can see there is a period for the function $f_{7,15}(x)$ and the result will be repeated after *four* iteration. Now we can use this period in order to find the prime factors of the number 15 in the following way:
+ In this case we can see there is a period for the function $f_{7,15}(x)$ and the result will be repeated after *four* iteration. Now we can use this period (r=4) in order to find the prime factors of the number 15 in the following way:
+
+ 1. if $r$ is an odd number it is not good to find the prime factor and we need to change the $a$, in this case $a$ was 7.
+ 2.  if $r$ is an even number we can find the prime factora as follows:
+   * $p_1$ = $gcd(a^{r/2}+1,N)$
+   * $p_2$ = $gcd(a^{r/2}-1,N)$
+ 
  
  
  
