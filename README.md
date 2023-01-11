@@ -39,19 +39,35 @@ As a first example, let me consider $N=15$ and $a=7$ which is a famous example i
  In this case we can see the period is *four* $(r=4)$. Now we can use this period (r=4) in order to find the prime factors of the number 15 in the following way:
    * $$p_1 = \text{gcd}(7^{4/2}+1,15)=\text{gcd}(50,15)=5 \qquad  p_2 = \text{gcd}(7^{4/2}-1,15)=\text{gcd}(48,15)=3$$
  
-### First Examples $N=28$ and $a=5$
+### First Examples $N=35$ and $a=3$
 For second example we will have:
-  * $f_{5,28}(0) = 5^0 \text{mod} 28 = 1$
-  * $f_{5,28}(1) = 5^1 \text{mod} 28 = 5$
-  * $f_{5,28}(2) = 5^2 \text{mod} 28 = 4$
-  * $f_{5,28}(3) = 5^3 \text{mod} 28 = 20$
-  * $f_{5,28}(4) = 5^4 \text{mod} 28 = 16$
-  * $f_{5,28}(5) = 5^5 \text{mod} 28 = 17$
-  * $f_{5,28}(6) = 5^6 \text{mod} 28 = 1$
-  * $f_{5,28}(7) = 5^7 \text{mod} 28 = 5$
+  * $f_{3,35}(0) = 3^0 \text{mod} 35 = 1$
+  * $f_{3,35}(1) = 3^1 \text{mod} 35 = 3$
+  * $f_{3,35}(2) = 3^2 \text{mod} 35 = 9$
+  * $f_{3,35}(3) = 3^3 \text{mod} 35 = 27$
+  * $f_{3,35}(4) = 3^4 \text{mod} 35 = 11$
+  * $f_{3,35}(5) = 3^5 \text{mod} 35 = 33$
+  * $f_{3,35}(6) = 3^6 \text{mod} 35 = 29$
+  * $f_{3,35}(7) = 3^7 \text{mod} 35 = 17$
+  * $f_{3,35}(8) = 3^8 \text{mod} 35 = 16$
+  * $f_{3,35}(9) = 3^9 \text{mod} 35 = 13$
+  * $f_{3,35}(10) = 3^10 \text{mod} 35 = 4$
+  * $f_{3,35}(11) = 3^11 \text{mod} 35 = 12$
+  * $f_{3,35}(12) = 3^12 \text{mod} 35 = 1$
+  * $f_{3,35}(13) = 3^13 \text{mod} 35 = 3$
+  * $f_{3,35}(14) = 3^14 \text{mod} 35 = 9$
+  * $f_{3,35}(15) = 3^15 \text{mod} 35 = 27$
  
- So the peroiod $r$ is 6 and the prime factors are
-   * $p_1$ = $\text{gcd}(5^{6/2}+1,21)=\text{gcd}(126,21)=5$
-   * $p_2$ = $\text{gcd}(5^{6/2}-1,21)=\text{gcd}(124,21)=3$
+ So the peroiod $r$ is 12 and the prime factors are
+   $$p_1 = \text{gcd}(3^{12/2}+1,35)=\text{gcd}(730,21)=5 \qquad   p_2 = \text{gcd}(3^{12/2}-1,21)=\text{gcd}(728,35)=7$$
  
+## What is the story by using Quantum Computation?
+The story is the same as classic, but here we just want to calculate the period of function with using quantum features. To do this P. Shor has applied quantum phase estimation like below.
+
+
+
+
+
+
+
 
