@@ -26,8 +26,8 @@ which here $a = 7$ and $N=15$ for $x = 0,1,...,N$. After doing this for a while 
    * $p_2$ = $\text{gcd}(a^{r/2}-1,N)$
           
  In our case $r=4$ and 
-   * $p_1$ = $\text{gcd}(7^{4/2}+1,15)=$
-   * $p_2$ = $\text{gcd}(7^{4/2}-1,15)=$
+   * $p_1$ = $\text{gcd}(7^{4/2}+1,15)=\text{gcd}(50,15)=5$
+   * $p_2$ = $\text{gcd}(7^{4/2}-1,15)=\text{gcd}(48,15)=3$
  
  
 
