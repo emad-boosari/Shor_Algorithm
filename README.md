@@ -8,9 +8,6 @@ Consider a postive integer Number like $N$. We are intrested in the factor $p$ o
 ### Classical Approach
 
 To determine the prime factors we can use a simple approach step by step like below
-
-
-
 1. if $N$ is a prime number declare that it is and exit.
 2. if $N$ is not a prime number, then choose a random integer $'a'$ between $1<a<N$
 
