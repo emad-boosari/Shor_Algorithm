@@ -9,7 +9,7 @@ Consider a postive integer Number like $N$. We are intrested in the factor $p$ o
 
 To determine the prime factors we can use a simple approach step by step like below
 1. if $N$ is a prime number declare that it is and exit.
-2. if $N$ is not a prime number, then choose a random integer $'a'$ between
+2. if $N$ is not a prime number, then choose a random integer $a \in (1,N)$  
    * Calculate $gcd(a,N)$         
      * if $gcd(a,N) \neq 1$, then return the $gcd(a,N)$ as a prime facotr
      * if $gcd(a,N) = 1$, proceed to step 3.
