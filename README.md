@@ -66,7 +66,16 @@ The story is the same as classic, but here we just want to calculate the period 
 
 $$U|y\rangle = |a\times y \text{Mod} N\rangle$$
 
-1. $U|1\rangle = |3\times 1 \text{Mod} 35\rangle = |3\rangle$
+1. $U|1\rangle = |(3\times 1) \text{Mod} 35\rangle = |3\rangle$
+2. $U|1\rangle = |(3\times 1) \text{Mod} 35\rangle = |3\rangle$
+3. $U|1\rangle = |(3\times 1) \text{Mod} 35\rangle = |3\rangle$
+4. $U|1\rangle = |(3\times 1) \text{Mod} 35\rangle = |3\rangle$
+5. $U|1\rangle = |(3\times 1) \text{Mod} 35\rangle = |3\rangle$
+6. $U|1\rangle = |(3\times 1) \text{Mod} 35\rangle = |3\rangle$
+7. $U|1\rangle = |(3\times 1) \text{Mod} 35\rangle = |3\rangle$
+8. $U|1\rangle = |(3\times 1) \text{Mod} 35\rangle = |3\rangle$
+$\vdots$
+12. $U|1\rangle = |(3\times 1) \text{Mod} 35\rangle = |3\rangle$
 
 
 
