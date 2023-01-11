@@ -16,7 +16,7 @@ To determine the prime factors we can use a simple approach step by step like be
  3. find the period $r$ in such a way that for the function $f_{a,N}(x) = a^x \text{mod} N$ 
 $$f_{a,N}(r+1)= f_{a,N}(1) $$
 or in general
-$$f_{a,N}(r+s)= f_{a,N}(s) \qquad s>1 $$
+$$f_{a,N}(r+s)= f_{a,N}(s) \qquad \text{for} s>1 $$
 
  5. if period $r$ is odd or if $a^r \equiv -1 \text{mod} N$, then return to __step 2__ and choose another $a$.
  *  Attention: $17 \equiv 2\text{mod} 15$
