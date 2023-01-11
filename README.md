@@ -9,6 +9,8 @@ $$f_{a,N}(x) = a^x \text{mod} N$$
 
 which here $a = 7$ and $N=15$ for $x = 0,1,...,N$. After doing this for a while we will see there is a period. Look at well to the following:<par>
 
-$f_{7,15}(x) = 7^0 \text{mod} 15 = 0$
+  * $f_{7,15}(0) = 7^0 \text{mod} 15 = 1$
+  * $f_{7,15}(1) = 7^0 \text{mod} 15 = 7$
+ 
 
 
