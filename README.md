@@ -17,8 +17,8 @@ To determine the prime factors we can use a simple approach step by step like be
  
 $$f_{a,N}(x) = a^x \text{mod} N$$
 
- 5. if period $r$ is odd or if $a^r \equiv -1 \quad\text{mod} N$, then return to __step 2__ and choose another $a$.
- *  Attention: $17 \equiv 2 \quad\text{mod} 15$
+ 5. if period $r$ is odd or if $a^r \equiv -1 \text{mod} N$, then return to __step 2__ and choose another $a$.
+ *  Attention: $17 \equiv 2\text{mod} 15$
  7. prime factors are 
    $$p_1 = \text{gcd}(a^{r/2}+1,N), \qquad p_2 = \text{gcd}(a^{r/2}-1,N)$$
 
