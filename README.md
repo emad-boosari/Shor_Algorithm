@@ -22,8 +22,8 @@ which here $a = 7$ and $N=15$ for $x = 0,1,...,N$. After doing this for a while 
 
  1. if $r$ is an odd number it is not good to find the prime factor and we need to change the $a$, in this case $a$ was 7.
  2.  if $r$ is an even number we can find the prime factora as follows:
-   * $p_1$ = $gcd(a^{r/2}+1,N)$
-   * $p_2$ = $gcd(a^{r/2}-1,N)$
+   * $p_1$ = $\text{gcd}(a^{r/2}+1,N)$
+   * $p_2$ = $\text{gcd}(a^{r/2}-1,N)$
  
  
  
