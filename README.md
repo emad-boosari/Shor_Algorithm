@@ -64,7 +64,7 @@ For second example we will have:
 ## What is the story by using Quantum Computation?
 The story is the same as classic, but here we just want to calculate the period of function with using quantum features. To do this P. Shor has applied quantum phase estimation like below. Let me consider the second example $(N=35,a=3)$. Suppose the following unitary operator:
 
-$$U|y\rangle = |a\times y \text{mode} N$$
+$$U|y\rangle = |a\times y \text{Mod} N$$
 
 
 
