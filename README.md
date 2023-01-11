@@ -82,8 +82,10 @@ $$U|y\rangle = |a\times y \text{Mod} N\rangle$$
 
 ***
 So a superposition of these states in this cycle $(|u_0\rangle)$ would be an eigenstate of $U$:
-$$|u_0\rangle = \frac{1}{r} \sum_{k=0}^{r-1} |a^k \text{mod} N\rangle$$
+$$|u_0\rangle = \frac{1}{\sqrt{r}} \sum_{k=0}^{r-1} |a^k \text{mod} N\rangle$$
 
+for our case it can be written as 
+$$|u_0\rangle = \frac{1}{\sqrt{12}} \bigg(|1\rangle+|3\rangle+|9\rangle+|27\rangle+|11\rangle+|33\rangle+|29\rangle+|17\rangle+\ldots+|4\rangle+|12\rangle)\bigg $$
 
 
 
