@@ -24,12 +24,7 @@ $$f_{a,N}(r+s)= f_{a,N}(s) \quad \text{for} \qquad s>1 $$
    $$p_1 = \text{gcd}(a^{r/2}+1,N), \qquad p_2 = \text{gcd}(a^{r/2}-1,N)$$
 
 ### Examples:
-
-Let me consider a simple example. We have a number like 15 and we would like to find an its prime facotrs, it means 3 and 5. We choose randomly a number like 7 and try to find _Mod_ of a function like below
-
-$$f_{a,N}(x) = a^x \text{mod} N$$
-
-which here $a = 7$ and $N=15$ for $x = 0,1,...,N$. After doing this for a while we will see there is a period. Look at well to the following:<par>
+As a first example, let me consider $N=15$ and $a=7$ which is a famous example in quantum computation literature. As a naive person, we can find the period just by following the numbers below:
 
   * $f_{7,15}(0) = 7^0 \text{mod} 15 = 1$
   * $f_{7,15}(1) = 7^1 \text{mod} 15 = 7$
