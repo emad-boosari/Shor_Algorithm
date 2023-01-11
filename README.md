@@ -12,14 +12,17 @@ To determine the prime factors we can use a simple approach step by step like be
 2. if $N$ is not a prime number, then choose a random integer $a \in (1,N)$  
    * Calculate $gcd(a,N)$         
      * if $gcd(a,N) \neq 1$, then return the $gcd(a,N)$ as a prime facotr
-     * if $gcd(a,N) = 1$, proceed to step 3.
+     * if $gcd(a,N) = 1$, proceed to __step 3__.
  3. find the period $(r)$ of the following function 
  
 $$f_{a,N}(x) = a^x \text{mod} N$$
 
- 5. if period $r$ is odd or if $a^r $
- 6. 5
- 
+ 5. if period $r$ is odd or if $a^r \equiv -1 \text{mod} N$, then return to __step 2__ and choose another $a$.
+ 6. prime factors are 
+   * $p_1$ = $\text{gcd}(a^{r/2}+1,N)$
+   * $p_2$ = $\text{gcd}(a^{r/2}-1,N)$
+
+## Examples:
 
 Let me consider a simple example. We have a number like 15 and we would like to find an its prime facotrs, it means 3 and 5. We choose randomly a number like 7 and try to find _Mod_ of a function like below
 
