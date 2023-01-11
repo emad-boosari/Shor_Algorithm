@@ -67,18 +67,18 @@ The story is the same as classic, but here we just want to calculate the period 
 $$U|y\rangle = |a\times y \text{Mod} N\rangle$$
 
 1. $U|1\rangle = |(3\times 1) \text{Mod} 35\rangle = |3\rangle$
-2. $U^2|1\rangle   = U(U|1\rangle)   = U|3\rangle = |(3\times 3) \text{Mod} 35\rangle = |9\rangle$
-3. $U^3|1\rangle   = U(U^2|1\rangle) = U|9\rangle = U(3\times 9) \text{Mod} 35\rangle = |27\rangle$
-4. $U^4|1\rangle   = U(U^3|1\rangle) = U|27\rangle = U(3\times 27) \text{Mod} 35\rangle = |11\rangle$
-5. $U^5|1\rangle   = U(U^4|1\rangle) = U|9\rangle = U(3\times 9) \text{Mod} 35\rangle = |27\rangle$
-6. $U^6|1\rangle   = U(U^5|1\rangle) = U|9\rangle = U(3\times 9) \text{Mod} 35\rangle = |27\rangle$
-7. $U^7|1\rangle   = U(U^6|1\rangle) = U|9\rangle = U(3\times 9) \text{Mod} 35\rangle = |27\rangle$
-8. $U^8|1\rangle   = U(U^7|1\rangle) = U|9\rangle = U(3\times 9) \text{Mod} 35\rangle = |27\rangle$
-9. $U^9|1\rangle   = U(U^8|1\rangle) = U|9\rangle = U(3\times 9) \text{Mod} 35\rangle = |27\rangle$
-10. $U^10|1\rangle = U(U^9|1\rangle) = U|9\rangle = U(3\times 9) \text{Mod} 35\rangle = |27\rangle$
-11. $U^11|1\rangle = U(U^{10}|1\rangle) = U|9\rangle = U(3\times 9) \text{Mod} 35\rangle = |27\rangle$
-12. $U^12|1\rangle = U(U^{11}|1\rangle) = U|9\rangle = U(3\times 9) \text{Mod} 35\rangle = |27\rangle$
-13. $U^13|1\rangle = U(U^{12}|1\rangle) = U|9\rangle = U(3\times 9) \text{Mod} 35\rangle = |27\rangle$
+2. $U^2|1\rangle   = U(U|1\rangle)      = U|3\rangle = |(3\times 3) \text{Mod} 35\rangle = |9\rangle$
+3. $U^3|1\rangle   = U(U^2|1\rangle)    = U|9\rangle = U(3\times 9) \text{Mod} 35\rangle = |27\rangle$
+4. $U^4|1\rangle   = U(U^3|1\rangle)    = U|27\rangle = U(3\times 27) \text{Mod} 35\rangle = |11\rangle$
+5. $U^5|1\rangle   = U(U^4|1\rangle)    = U|11\rangle = U(3\times 11) \text{Mod} 35\rangle = |33\rangle$
+6. $U^6|1\rangle   = U(U^5|1\rangle)    = U|33\rangle = U(3\times 33) \text{Mod} 35\rangle = |29\rangle$
+7. $U^7|1\rangle   = U(U^6|1\rangle)    = U|29\rangle = U(3\times 29) \text{Mod} 35\rangle = |17\rangle$
+8. $U^8|1\rangle   = U(U^7|1\rangle)    = U|17\rangle = U(3\times 17) \text{Mod} 35\rangle = |16\rangle$
+9. $U^9|1\rangle   = U|16\rangle = |13\rangle$
+10. $U^10|1\rangle = U|13\rangle  = |4\rangle$
+11. $U^11|1\rangle = U|4\rangle  = |12\rangle$
+12. $U^12|1\rangle = U|12\rangle  = |1\rangle$
+13. $U^13|1\rangle = U|1\rangle  = |3\rangle$
 
 
 
