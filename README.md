@@ -93,5 +93,8 @@ $$ |u_1\rangle = U|u_0\rangle = \frac{1}{\sqrt{12}} \bigg(U|1\rangle+U|3\rangle+
 the eigenvalue is 1. But an intersting case could be one in which the phase is different for each of these computational basis.
 $$|u_1\rangle = \frac{1}{\sqrt{r}} \sum_{k=0}^{r-1} e^{\frac{-2\pi ik}{r}}|a^k \text{mod} N\rangle.$$
 
+By using the reuslt of $U|u_0\rangle$ we can easily reach to 
+$$|u_1\rangle = e^{\frac{2\pi i}{r}}|u_1\rangle$$
 
+we can see the period $r=12$ appears in the denamenator of the phase.
 
