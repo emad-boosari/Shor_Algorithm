@@ -3,4 +3,8 @@ __Shor's algorithm__ is a quantum computer algorithm for finding the _prime fact
 
 
 ## What is the story?
-Let me consider a simple example. We have a number like 15 and we would like to find an its prime facotrs,
+Regardless of quantum computing and Shor algorithm let me explain whati is going on. Let me consider a simple example. We have a number like 15 and we would like to find an its prime facotrs, it means 3 and 5. We choose randomly a nnumber like 7 and try to find _Mod_ of a function like below
+
+$$f_{a,N} = a^x Mod N$$
+
+which here $a = 7$ and $N=15$.
