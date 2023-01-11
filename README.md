@@ -24,8 +24,10 @@ which here $a = 7$ and $N=15$ for $x = 0,1,...,N$. After doing this for a while 
  2.  if $r$ is an even number we can find the prime factora as follows:
    * $p_1$ = $\text{gcd}(a^{r/2}+1,N)$
    * $p_2$ = $\text{gcd}(a^{r/2}-1,N)$
- 
- 
+          
+ In our case $r=4$ and 
+   * $p_1$ = $\text{gcd}(7^{4/2}+1,15)=$
+   * $p_2$ = $\text{gcd}(7^{4/2}-1,15)=$
  
  
 
