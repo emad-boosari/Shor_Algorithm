@@ -35,16 +35,8 @@ As a first example, let me consider $N=15$ and $a=7$ which is a famous example i
   * $f_{7,15}(6) = 7^6 \text{mod} 15 = 4$
   * $f_{7,15}(7) = 7^7 \text{mod} 15 = 13$ 
 
- In this case we can see there is a period for the function $f_{7,15}(x)$ and the result will be repeated after *four* iteration. Now we can use this period (r=4) in order to find the prime factors of the number 15 in the following way:
-
- 1. if $r$ is an odd number it is not good to find the prime factor and we need to change the $a$, in this case $a$ was 7.
- 2.  if $r$ is an even number we can find the prime factora as follows:
-   * $p_1$ = $\text{gcd}(a^{r/2}+1,N)$
-   * $p_2$ = $\text{gcd}(a^{r/2}-1,N)$
-          
- In our case $r=4$ and 
-   * $p_1$ = $\text{gcd}(7^{4/2}+1,15)=\text{gcd}(50,15)=5$
-   * $p_2$ = $\text{gcd}(7^{4/2}-1,15)=\text{gcd}(48,15)=3$
+ In this case we can see the period is *four* $(r=4)$. Now we can use this period (r=4) in order to find the prime factors of the number 15 in the following way:
+   * $$p_1 = \text{gcd}(7^{4/2}+1,15)=\text{gcd}(50,15)=5 \qquad  p_2 = \text{gcd}(7^{4/2}-1,15)=\text{gcd}(48,15)=3$$
  
  
 As a second example let me consider $N=21$ and $a=5$.
