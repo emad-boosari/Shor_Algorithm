@@ -86,11 +86,9 @@ $$|u_0\rangle = \frac{1}{\sqrt{r}} \sum_{k=0}^{r-1} |a^k \text{mod} N\rangle$$
 
 for our case it can be written as 
 $$|u_0\rangle = \frac{1}{\sqrt{12}} \bigg(|1\rangle+|3\rangle+|9\rangle+|27\rangle+\ldots+|4\rangle+|12\rangle\bigg) $$
-$$ \begin{eqnarray}
-|u_1\rangle = U|u_0\rangle &=& \frac{1}{\sqrt{12}} \bigg(U|1\rangle+U|3\rangle+U|9\rangle+U|27\rangle+\ldots+U|4\rangle+U|12\rangle\bigg) \\
-&=& \frac{1}{\sqrt{12}} \bigg(U|3\rangle+U|9\rangle+U|27\rangle+U|11\rangle+\ldots+U|12\rangle+U|1\rangle\bigg)
-\end{eqnarray}
-$$
+
+$$ |u_1\rangle = U|u_0\rangle = \frac{1}{\sqrt{12}} \bigg(U|1\rangle+U|3\rangle+U|9\rangle+U|27\rangle+\ldots+U|4\rangle+U|12\rangle\bigg) =
+ \frac{1}{\sqrt{12}} \bigg(U|3\rangle+U|9\rangle+U|27\rangle+U|11\rangle+\ldots+U|12\rangle+U|1\rangle\bigg) $$
 
 
 
