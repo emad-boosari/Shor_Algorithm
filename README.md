@@ -13,15 +13,15 @@ To determine the prime factors we can use a simple approach step by step like be
    * Calculate $gcd(a,N)$         
      * if $gcd(a,N) \neq 1$, then return the $gcd(a,N)$ as a prime facotr
      * if $gcd(a,N) = 1$, proceed to __step 3__.
- 3. find the period $r$ in such a way that for the function $f_{a,N}(x) = a^x \text{mod} N$ 
+3. find the period $r$ in such a way that for the function $f_{a,N}(x) = a^x \text{mod} N$ 
 $$f_{a,N}(r+1)= f_{a,N}(1) $$
 or in general
 $$f_{a,N}(r+s)= f_{a,N}(s) \quad \text{for} \qquad s>1 $$
 
- 5. if period $r$ is odd or if $a^r \equiv -1 \text{mod} N$, then return to __step 2__ and choose another $a$.
+4. if period $r$ is odd or if $a^r \equiv -1$ $\text{mod}$ $N$, then return to __step 2__ and choose another $a$.
      * Attention: $a\equiv b$ $\text{mod}$ $N$ if and only if $a$ $\text{mod}$ $N$ = $b$ $\text{mod}$ $N$
        * Example: $17 \equiv 2\text{mod} 15$
- 7. prime factors are 
+5. prime factors are 
    $$p_1 = \text{gcd}(a^{r/2}+1,N), \qquad p_2 = \text{gcd}(a^{r/2}-1,N)$$
 
 ### First Examples $N=15$ and $a=7$
